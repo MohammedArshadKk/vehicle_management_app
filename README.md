@@ -1,16 +1,39 @@
 # vehicle_management_app
 
-A new Flutter project.
+## 📱 Features
 
-## Getting Started
+- 📲 **Phone Number Login with OTP Verification**
+- 🔐 **JWT Authentication with Token Refresh**
+- 📊 **Profit & Loss Dashboard (Today, Yesterday, Monthly)**
+- 🧠 **State Management using Bloc**
+- 📦 **Caching using SharedPreferences**
+- 📴 **Offline support with cached data**
+- 🔄 **Pull-to-Refresh support**
+- 🌙 **Dark Mode UI**
+- ❌ Graceful handling of loading, empty, and error states
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🧰 Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Tech | Description |
+|------|-------------|
+| **Flutter** | Cross-platform UI toolkit |
+| **Bloc** | State management |
+| **Dio** | HTTP client for API integration |
+| **flutter_secure_storage** | Secure storage for JWT tokens |
+| **shared_preferences** | Caching PnL data for offline support |
+| **jwt_decoder** | Decode and validate JWT tokens |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🗂️ Project Structure
+
+```bash
+lib/
+├── blocs/              # Bloc & State Management
+├── models/             # Data models
+├── screens/            # UI screens
+├── services/           # API service classes
+├── utils/              # Helpers (base url, colours, functions)
+├── widgets/            # Reusable UI components
